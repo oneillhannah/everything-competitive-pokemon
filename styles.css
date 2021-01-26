@@ -1,6 +1,17 @@
-*/CIS155. V1. Hannah O'Neill. 1/25/2021.*/
-<style type="text/css">
-p.header {color:#AC270B; font-size:14pt; font-weight: bold}
-p.standard {color:#E8DF55; font-size:11pt}
-</style>
-*/M2LO15. Apply color using CSS.*/ 
+/* CIS155. V1. Hannah O'Neill. 1/25/2021. */
+body {
+    background-color: bisque;
+}
+.center {
+text-align: center;
+}
+p.header {
+    color:#AC270B; 
+    font-size:14pt; 
+    font-weight: bold
+}
+p.standard {
+    color:#E8DF55; 
+    font-size:11pt
+}
+/* M2LO15. Apply color using CSS. */ 
