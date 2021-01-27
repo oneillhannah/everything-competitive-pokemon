@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<!-- CIS 155. v1 Hannah O'Neill. 1/26/21 -->
+<html>
+      <head>
+          <meta charset="utf-8" />
+          <link href="styles.css" rel="stylesheet" />
+          <style>
+              h2 {
+                  color:teal;
+                  text-align: center;
+              }
+          </style>
+          <!-- 
+              M2LO4 Demonstrate external, embedded, and inline styles. Example of
+              an embedded style.
+          -->
+          <title>Everything Competitive Pokemon</title>
+          <!--
+          M1LO6 Demonstrate the use of basic HTML tags to create a simple Web page 
+          (HTML, this item should be specified once, describing how the file it is in meets 
+          this outcome) I was able to structure the page using very basic HTML
+
+          M1LO8 Demonstrate the use of external style sheets. I used the style sheet
+          "style.css" to help with the formatting on this page and my about page.
+          -->
+      </head>
+      <body>
+        <nav>                    
+            <h1>Navigation</h1>
+               <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About ECP</a></li>
+                </ul>
+            </nav>
+
+            <!--
+          M1LO12 Create navigation using unordered lists. The unordered list within the
+          Navigation 
+
+          M1LO13 Demonstrate using 3 types of hyperlinks: site navigation, 
+          targeted location using ids, and external. Navigation is found below, and
+          targeted location using ids is used within the style sheet command, "styles.css"
+             -->
+            
+            <article id="about_ecp">
+             <img src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/23ddfd0a-6934-4f06-9fa9-8be687766403/d7qttkw-947f4ab5-4c8d-4ce9-ad61-1854142de9de.gif?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOiIsImlzcyI6InVybjphcHA6Iiwib2JqIjpbW3sicGF0aCI6IlwvZlwvMjNkZGZkMGEtNjkzNC00ZjA2LTlmYTktOGJlNjg3NzY2NDAzXC9kN3F0dGt3LTk0N2Y0YWI1LTRjOGQtNGNlOS1hZDYxLTE4NTQxNDJkZTlkZS5naWYifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6ZmlsZS5kb3dubG9hZCJdfQ.EjX-srsFjIFnhm6UFF40V3X-jC-8oxeSlLmMbBPGvn4" alt="pikachu sprite"></div>
+              <h2>Welcome to everything Competitive Pokemon!</h2>
+              <!--
+                  M1LO9 Demonstrate the use of inline images. Using a (temporary) placeholder
+                  Pikachu for a banner that will be put in place.
+              -->
+              <p>
+           </p>
+        <p class="header">
+            <img scr="pichu.gif" alt=""/>Wanting to start competitive battling? Well you've come to the right place!
+        </p>
+          <p class="standard">
+                Being a beginner can be scary at first, simply because many things go into it.
+            </p>
+            <p class="standard">
+                Such as:
+                <ul>
+                    <li>IVs/Evs</li> 
+                    <li>Stats</li>
+                    <li>Breeding</li>
+                    <li>Natures</li>
+                    <li>movesets</li>
+                    <li>And much more!</li>
+                </ul>
+            </p>
+            <p class="standard">
+                You'll find on this page that all of this will be broken down into terms that 
+                can be understood easily and quickly.
+            </p>
+        </article>
+    </body>
+   </html>
