@@ -1,17 +1,97 @@
+@charset "utf-8";
 /* CIS155. V1. Hannah O'Neill. 1/25/2021. */
 body {
     background-color: bisque;
 }
-.center {
-text-align: center;
+
+/* M2LO12 Demonstrate how CSS can change presentation of page elements.
+This command changes the background color of everything attached to it */
+
+body > nav {
+    float: left;
+    width: 15%;
 }
+
+body > article#about_ecp {
+    width: 45%;
+	float: left;
+	margin: 0 3% 0 3%;
+}
+
+article#about_ecp ul li:first-of-type {
+    list-style-image: url(pichu.gif);
+ }
+
+/* M2LO13 Demonstrate how CSS can change presentation of textual elements 
+ This makes it so that the body of text follows the guidelines given, like
+ making the text float to the left, and how the margin moves with it 
+ 
+ M2LO11 Demonstrate a pseudo-classes and a pseudo-element selector. Start of
+ a pseudo class; more will be added once more images are added. */
+
+body > article#about_ecp img {
+    float: right;
+	margin: 0px 0 10px 10px;
+}
+
+body > article#credits {
+    float: left;
+    width: 45%;
+    margin: 0 3% 0 3%;
+}
+
+blockquote p::first-letter {
+    font-family:'Times New Roman', Times, serif;
+    font-size: 250%;
+}
+/* M2LO3 Demonstrate style precedence and inheritance in CSS. Example of
+Style specifity. Used to make articles of text look and align more smoothtly 
+
+M2LO6  Demonstrate a CSS id and a CSS class selector. Example of CSS id.
+
+M2LO11 Demonstrate a pseudo-classes and a pseudo-element selector. Pseudo element.
+
+*/
+
+nav > ul {
+    line-height: 2em;
+}
+/* M2LO5 Demonstrate contextual selectors. A selector to make the nav's unordered list
+have more spaces between them. */
+
 p.header {
     color:#AC270B; 
-    font-size:14pt; 
-    font-weight: bold
+    font-size:13pt; 
+    font-weight: bold;
 }
+/* M2LO3 Demonstrate style precedence and inheritance in CSS.
+Example of style inheritance. Used to make specific areas of
+text do precisely what you want/need 
+
+M2LO6  Demonstrate a CSS id and a CSS class selector. Example of
+CSS Class sector.
+
+M2LO15 Apply colors using CSS. Applied dark red to all text within
+the given class. */
+
+
 p.standard {
-    color:#E8DF55; 
-    font-size:11pt
+    color:#7c5604; 
+    font-size:13pt;
 }
-/* M2LO15. Apply color using CSS. */ 
+
+p.credits {
+    color:brown;
+    font-size: small;
+
+}
+
+a[href="https://www.serebii.net/"] {
+    color:lime;
+}
+/* M2LO15. Apply color using CSS.
+M2LO11 Demonstrate a pseudo-classes and a pseudo-element selector.p.classes and the <p class="class">
+were the pseudo-classes i used. Helps with styling properly.
+
+M2LO7 Demonstrate a CSS attribute selector other than class or id
+*/
